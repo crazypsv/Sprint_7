@@ -23,7 +23,6 @@ class TestCreateCourier:
 
     @allure.title('Нельзя создать двух одинаковых курьеров с одинаковыми логинами')
     def test_courier_duplicate_login(self):
-        # Генератор данных создаётся прямо здесь
         valid_data = gen()
 
         # Отправляем первый раз запрос успешно
